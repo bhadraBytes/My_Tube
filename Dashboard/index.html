@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="Assets/png" rel="icon" href="Assets/" />
+    <link rel="stylesheet" href="/Dashboard/StyleSheets/style.css" />
+    <title>Admin and Dashboard Pannel</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="none"></div>
+        <div class="search">
+          <input type="text" name="" id="" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="user">
+          <div class="icon">
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-grip"></i>
+            <i class="fa-solid fa-bell"></i>
+          </div>
+
+          <div class="img">
+            <img src="Assets/my_logo.png" alt="" />
+          </div>
+        </div>
+
+        <div class="toggle">
+          <i class="fa-solid fa-bars" id="header-toggle"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="nav" id="navbar">
+      <nav class="nav-container">
+        <div>
+          <a href="#" class="nav-link nav-logo">
+            <i class="fa-solid fa-bars nav-icon"></i>
+            <span class="logo-name">
+              <i class="fab fa-youtube"></i>
+              Youtube
+            </span>
+          </a>
+
+          <div class="nav-list">
+            <div class="nav-items navtop">
+              <a href="#" class="nav-link navtop active">
+                <i class="fa fa-house nav-icon"></i>
+                <span class="nav-name">Home</span>
+              </a>
+              <a href="#" class="nav-link navtop">
+                <i class="fa fa-compass nav-icon"></i>
+                <span class="nav-name">Explore</span>
+              </a>
+              <a href="#" class="nav-link navtop">
+                <i class="fa-brands fa-tiktok nav-icon"></i>
+                <span class="nav-name">Short Video</span>
+              </a>
+              <a href="#" class="nav-link navtop">
+                <i class="fa-solid fa-users nav-icon"></i>
+                <span class="nav-name">Channel</span>
+              </a>
+              <a href="#" class="nav-link navtop">
+                <i class="fa-solid fa-video nav-icon"></i>
+                <span class="nav-name">Library</span>
+              </a>
+              <a href="#" class="nav-link navtop">
+                <i class="fa-solid fa-clock-rotate-left nav-icon"></i>
+                <span class="nav-name">History</span>
+              </a>
+              <a href="#" class="nav-link navtop">
+                <i class="fa-solid fa-thumbs-up nav-icon"></i>
+                <span class="nav-name">Like</span>
+              </a>
+
+              <div class="nav-dropdown">
+                <a href="#" class="nav-link">
+                  <i class="fa-solid fa-chevron-down nav-icon"></i>
+                  <span class="nav-name">Show More</span>
+                </a>
+
+                <div class="nav-dropdown-collapse">
+                  <div class="nav-dropdown-content">
+                    <a href="#" class="nav-dropdown-item">Grid Box</a>
+                    <a href="#" class="nav-dropdown-item">Bhadra Bytes</a>
+                    <a href="#" class="nav-dropdown-item">Js-Developers</a>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="nav-link">
+                <i class="fa-solid fa-comment nav-icon"></i>
+                <span class="nav-name">Messages</span>
+              </a>
+            </div>
+        
+            <div class="nav-items subscribe-container">
+                <h3 class="nav-subtitle">Subscriptions</h3>
+                <a href="#" class="nav-link">
+                    <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" alt="">
+                    <span class="nav-name">BhadraBytes</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="subscribe" src="Assets/icons8-keiji-akaashi-64.png" alt="">
+                    <span class="nav-name">Js Developers</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="subscribe" src="Assets/icons8-675-0-72946-happy-messaging-48.png" alt="">
+                    <span class="nav-name">Team Ultra</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="subscribe" src="Assets/icons8-kuroo-64.png" alt="">
+                    <span class="nav-name">FreeCodeCamp.org</span>
+                </a>
+
+                <div class="nav-dropdown">
+                  <a href="#" class="nav-link">
+                    <i class="fa-solid fa-chevron-down nav-icon"></i>
+                    <span class="nav-name">Show More</span>
+                  </a>
+
+                  <div class="nav-dropdown-collapse nav-dropdown-second">
+                    <div class="nav-dropdown-content">
+                      <a href="#" class="nav-dropdown-items">
+                        <img class="subscribe" src="Assets/icons8-675-0-72946-happy-messaging-48.png" alt="">
+                        <span class="nav-name">Team Ultra</span>
+                      </a>
+                      <a href="#" class="nav-dropdown-items">
+                        <img class="subscribe" src="Assets/icons8-675-0-72946-happy-messaging-48.png" alt="">
+                        <span class="nav-name">Team Ultra</span>
+                      </a>
+                      <a href="#" class="nav-dropdown-items">
+                        <img class="subscribe" src="Assets/icons8-675-0-72946-happy-messaging-48.png" alt="">
+                        <span class="nav-name">Team Ultra</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <main>
+      <section class="video-content grid">
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/kantaraThumbnail.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make a Netflix Clone Only Using HTML, CSS, JS......</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg1.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make Something New</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg2.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Caught You Come Check this</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/netflix_clone.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make a Netflix Clone Only Using HTML, CSS, JS......</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg3.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Watch and Learn</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg4.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Now I Don't know what to type</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg5.png" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to kick your own ass !</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg6.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Lets Earn Together..</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg7.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make 1 crore in 10 Mins</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg8.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make 10M+ Views only In 5 Mins</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="adult.html">
+            <img src="/Dashboard/Assets/y-bg9.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Don't Click On this..Don't</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg10.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>HOW TO GIVE MONEY FROM YOUR OWN POCKET</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/netflix_clone.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make a Netflix Clone Only Using HTML, CSS, JS......</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg5.png" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make a Netflix Clone Only Using HTML, CSS, JS......</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg2.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make a Netflix Clone Only Using HTML, CSS, JS......</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg4.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>How to make a Netflix Clone Only Using HTML, CSS, JS......</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="/Dashboard/don'tclick.html">
+            <img src="/Dashboard/Assets/y-bg11.png" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Its A little Secrete 18+</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video-items">
+          <a href="single-page.html">
+            <img src="/Dashboard/Assets/y-bg8.jpg" alt="">
+          </a>
+          <div class="details flex">
+            <div class="img">
+              <img src="/Dashboard/Assets/my_logo.png" alt="">
+            </div>
+            <div class="heading">
+              <p>Pls Don't watch this Video</p>
+              <span>BhadraBytes <i class="fa fa-circle-check"></i></span>
+              <span>56.7M .1 Week ago</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/7f793b200d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/Dashboard/Javascript/main.js"></script>
+  </body>
+</html>
